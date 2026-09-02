@@ -1,0 +1,16 @@
+# Veri — buyuk dosyalar repoya girmez
+data/raw/*.csv
+data/processed/*
+data/_quarantine/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Not: reports/ repoya GIRER. Raporlar ve figurler script ciktisi olsa da
+# GitHub'da okunabilir olmalari gerekiyor -- ustelik 3 rapor figurlere link
+# veriyor, disarida birakilirsa kirik gorsel gosterirler. Toplam ~450 KB.
+.DS_Store

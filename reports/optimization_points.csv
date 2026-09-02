@@ -1,0 +1,6 @@
+output,error_type,model,skill_vs_pers,mevcut_bias,mevcut_mutlak,model_tahmini,Machine1.MotorRPM,Machine1.ExitZoneTemperature,Machine3.MotorRPM,Machine4.Pressure,Machine4.Temperature3
+Stage2.M9,variability,hgb,0.2553,0.1692,0.1834,0.0003,12.02,70.52,13.71,16.13,313.01
+Stage2.M0,bias,hgb,0.2253,0.8822,0.8866,0.0046,11.95,79.12,13.29,17.26,313.19
+Stage2.M7,belirsiz,hgb,0.165,0.2537,0.2537,0.0001,11.33,72.6,13.93,16.84,314.04
+Stage2.M8,belirsiz,rf,0.1108,0.3315,0.4113,0.0,11.49,71.53,13.2,19.66,326.44
+Stage2.M10,variability,hgb,0.1004,-0.0916,0.0947,0.0,10.73,70.87,12.57,19.15,318.63
