@@ -5,7 +5,8 @@ optimizasyon çalışması. Detroit yakınlarındaki bir hattan 14.088 gözlem,
 116 değişken, 1 Hz örnekleme, 3 saat 55 dakika.
 
 **Veri:** [Multistage Continuous-Flow Manufacturing Process](https://www.kaggle.com/datasets/supergus/multistage-continuousflow-manufacturing-process)
-— Liveline Technologies, 6 Mart 2019.
+— Liveline Technologies. Veri 6 Mart 2019'da kaydedildi, Ocak 2020'de
+Kaggle'da yayımlandı. Ham veri bu repoda **yer almaz** (bkz. Lisans).
 
 ---
 
@@ -127,3 +128,19 @@ Veri neyi söyleyemiyorsa, o iddia edilmiyor. Bir kısıtı fark edip sınırın
 ölçmek, o kısıtı görmezden gelip güçlü bir sonuç iddia etmekten daha değerlidir.
 
 Sonuçlar gözlemsel veriye dayanır; hiçbiri nedensellik iddia etmez.
+
+---
+
+## Lisans
+
+**Kod ve raporlar** (bu repodaki her şey): MIT.
+
+**Veri:** Bu repo ham veriyi içermez ve dağıtmaz. Kaggle'daki lisans kaydı
+`Data files © Original Authors` — açık bir lisans verilmemiş, telif orijinal
+yazarlarda (Liveline Technologies) kalmıştır. Veriyi kullanmak isteyenlerin
+[kaynağından](https://www.kaggle.com/datasets/supergus/multistage-continuousflow-manufacturing-process)
+kendilerinin indirmesi gerekir; `.gitignore` `data/` altındaki tüm CSV'leri
+repo dışında tutar.
+
+Bu bağımsız bir portföy çalışmasıdır; Liveline Technologies ile herhangi bir
+bağlantısı yoktur ve şirket tarafından desteklenmemiştir.
