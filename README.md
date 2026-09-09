@@ -25,8 +25,10 @@ altında ve hatasının %98'i bias — bir ayar/kalibrasyon problemi, model
 gerektirmiyor.
 
 İkinci çıktı, optimizasyonun önünü açacak somut bir deney tasarımı: 5 faktör,
-16 koşul, ~4 saat net deney. Gözlemsel veri biriktirerek aynı bilgiye ulaşmak
-~190 saat sürerdi.
+2 seviye, yarım-kesir faktöriyel — 16 koşul × 3 replikasyon ≈ ~4 saat net koşu
+süresi. Güç karşılaştırması ayrı bir sayı: gözlenen etki büyüklüğünde (d = 0,31)
+%80 güce ulaşmak gözlemsel veriyle ~190 saat, tasarlanmış deneyle ~28 saat
+sürer (bkz. teknik rapor §7 A6).
 
 📖 **[Analiz Raporu](https://claude.ai/code/artifact/96278aab-51d0-4a3b-acb2-7a592394e36b)** — çalışmanın tamamı, figürlerle
 📊 **[Proses Optimizasyon Panosu](https://claude.ai/code/artifact/8a183a29-74ce-4d2d-abbf-157c08a5d22d)** — filtrelenebilir interaktif özet

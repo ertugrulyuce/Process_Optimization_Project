@@ -32,8 +32,10 @@ problemi. `Stage1.M1` hedefin %39 altında ve hatasının %98'i bias. Bu, model
 gerektirmeyen, etkisi doğrudan ölçülmüş bir iyileştirme fırsatı.
 
 Çalışmanın ikinci çıktısı, optimizasyonun önünü açacak somut bir deney
-tasarımıdır: 5 faktör, 2 seviye, yarım-kesir faktöriyel, ~4 saat net deney
-süresi. Gözlemsel veri biriktirerek aynı bilgiye ulaşmak ~190 saat sürerdi.
+tasarımıdır: 5 faktör, 2 seviye, yarım-kesir faktöriyel (16 koşul × 3
+replikasyon), ~4 saat net koşu süresi. Bu, güç karşılaştırmasından ayrı bir
+sayıdır: gözlenen etki büyüklüğünde (d = 0,31) %80 güce ulaşmak gözlemsel
+veriyle ~190 saat, tasarlanmış deneyle ~28 saat sürer (§7 A6).
 
 ---
 
