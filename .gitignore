@@ -17,3 +17,6 @@ venv/
 
 # pytest
 .pytest_cache/
+
+# Yerel calisma notu -- gunluk commit plani. Repoya girmez.
+_local_plan/
