@@ -462,7 +462,7 @@ bir HTML pano üretildi — kurulum gerektirmiyor, paylaşılabilir ve
 # Repository
 
 ```text
-Process_Optimization_Project/
+Process_Optimization/
 ├── data/
 │   ├── raw/                  # Kaggle orijinali — ASLA Excel'de açılmaz
 │   ├── processed/
@@ -472,11 +472,17 @@ Process_Optimization_Project/
 │   ├── analysis/
 │   ├── modeling/
 │   └── optimization/
-├── reports/                  # üretilen raporlar + assumptions.md
+├── tests/                    # pytest — conftest.py yolu src/ altına kurar
+├── reports/                  # üretilen raporlar + figürler (script çıktısı)
 ├── notebooks/
 ├── dashboard/
-├── docs/                     # plan_v0_original.md
+├── docs/                     # assumptions.md, technical_report.md,
+│                             # plan_v0_original.md (elle yazılır, silinmez)
+├── run_all.py                # tüm pipeline'ı sırayla çalıştırır
+├── pytest.ini
 ├── requirements.txt
+├── requirements-dev.txt
+├── LICENSE
 └── README.md
 ```
 
