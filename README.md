@@ -135,7 +135,7 @@ Sonuçlar gözlemsel veriye dayanır; hiçbiri nedensellik iddia etmez.
 
 ## Lisans
 
-**Kod ve raporlar** (bu repodaki her şey): MIT.
+**Kod ve raporlar** (bu repodaki her şey): MIT — tam metin [LICENSE](LICENSE).
 
 **Veri:** Bu repo ham veriyi içermez ve dağıtmaz. Kaggle'daki lisans kaydı
 `Data files © Original Authors` — açık bir lisans verilmemiş, telif orijinal
