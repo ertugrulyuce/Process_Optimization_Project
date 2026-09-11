@@ -1,0 +1,4 @@
+# Calistirma bagimliliklari icin: requirements.txt
+-r requirements.txt
+
+pytest>=8.0
