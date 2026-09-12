@@ -1,5 +1,9 @@
 # Continuous Manufacturing Process Optimization
 
+[![CI](https://github.com/ertugrulyuce/Process_Optimization/actions/workflows/ci.yml/badge.svg)](https://github.com/ertugrulyuce/Process_Optimization/actions/workflows/ci.yml)
+[![Lisans: MIT](https://img.shields.io/badge/lisans-MIT-blue.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+
 Gerçek bir sürekli akış üretim prosesinden alınan veriyle uçtan uca proses
 optimizasyon çalışması. Detroit yakınlarındaki bir hattan 14.088 gözlem,
 116 değişken, 1 Hz örnekleme, 3 saat 55 dakika.
@@ -37,6 +41,8 @@ sürer (bkz. teknik rapor §7 A6).
 ---
 
 ## Kurulum
+
+Python 3.11 veya uzeri gerekir (numpy 2.x ve pandas 2.2 bagimliligi).
 
 ```bash
 pip install -r requirements.txt
@@ -79,6 +85,8 @@ src/
   optimization/    optimize
 reports/           9 üretilen rapor + figürler (script çıktısı)
 docs/              technical_report, assumptions, plan_v0_original
+tests/             pytest — veriye dokunmayan birim testleri
+tools/             check_imports — CI'nin import zincirini doğrulaması
 run_all.py
 ```
 
